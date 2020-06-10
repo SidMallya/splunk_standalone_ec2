@@ -1,7 +1,7 @@
 # splunk_standalone_ec2
 An AWS CloudFormation template to launch a single Splunk Enterprise (v8.0.0) instance on EC2.
 
-To deploy a single Splunk Enterprise instance on EC2 (Amazon Linux AMI) automatically using CloudFormation, use the template splunk_standalone_ec2.json to create a stack by entering the stack name and parameter values. Once stack creation is complete you can view the Splunk URL in the Outputs tab.  The Splunk admin password will be set to "changeme", update the template to set a different admin password.
+To deploy a single Splunk Enterprise instance on EC2 (Amazon Linux AMI) automatically using CloudFormation, use the template splunk_standalone_ec2.json to create a stack by entering the stack name and parameter values. Once stack creation is complete you can view the Splunk URL in the Outputs tab.  The Splunk admin password will be set to "changeme" so update the template to set a different admin password if needed.
 
 Splunk will be installed with a trial license that is valid for 60 days after launch. After the trial expires, your deployment will default to Splunk Free.
 
